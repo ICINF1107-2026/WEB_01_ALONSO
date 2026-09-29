@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi Portafolio</title>
+
+    <link rel="stylesheet" href="Css/Style.css">
+</head>
+
+<body>
+
+    Barra de navegación 
+    <header>
+        <nav aria-label="Navegación principal">
+            <a class="logo" href="#inicio">Mi Portafolio</a>
+
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+    <!-- Inicio -->
+    <section id="inicio" class="inicio">
+
+        <div class="inicio-texto">
+            <p class="saludo">Hola, soy</p>
+
+            <h1>Alonso godoy</h1>
+
+            <h2>Estudiante de Bachiller en ciencias y humanidades</h2>
+
+            <p>
+                Me interesa el desarrollo de software, la tecnología
+                y aprender nuevas herramientas para crear soluciones.
+            </p>
+
+            <a href="#proyectos" class="boton">Ver mis proyectos</a>
+        </div>
+
+        <div class="circulo" aria-hidden="true">
+            <span>AG</span>
+        </div>
+
+    </section>
+
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="seccion">
+
+        <h2 class="titulo">Sobre mí</h2>
+
+        <div class="sobre-mi">
+
+            <section aria-labelledby="quien-soy">
+                <h3 id="quien-soy">¿Quién soy?</h3>
+
+                <p>
+                    Soy estudiante de bachiller en ciencias y humanidades,
+                    Actualmente estoy aprendiendo programación,
+                    desarrollo web y bases de datos.
+                </p>
+
+                <p>
+                    Me interesa seguir mejorando mis conocimientos
+                    y desarrollar proyectos que me permitan aplicar
+                    lo aprendido durante mi carrera.
+                </p>
+            </section>
+
+            <dl class="datos">
+                <dt>Nombre:</dt>
+                <dd>Alonso Godoy</dd>
+                <dt>Carrera:</dt>
+                <dd>Ingeniería civil informatica</dd>
+                <dt>Área:</dt>
+                <dd>Desarrollo de software</dd>
+                <dt>Intereses:</dt>
+                <dd>Programación y desarollo web</dd>
+            </dl>
+
+        </div>
+
+    </section>
+
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="seccion">
+
+        <h2 class="titulo">Mis habilidades</h2>
+
+        <ul class="habilidades">
+
+            <li class="habilidad">
+                <h3>HTML</h3>
+                <p>Creación y estructura de páginas web.</p>
+            </li>
+
+            <li class="habilidad">
+                <h3>CSS</h3>
+                <p>Diseño, colores, distribución y estilos.</p>
+            </li>
+
+            <li class="habilidad">
+                <h3>JavaScript</h3>
+                <p>Interactividad y funcionamiento de páginas web.</p>
+            </li>
+
+            <li class="habilidad">
+                <h3>SQL</h3>
+                <p>Creación y manejo de bases de datos.</p>
+            </li>
+
+        </ul>
+
+    </section>
+
+
+    Proyectos 
+    <section id="proyectos" class="seccion">
+
+        <h2 class="titulo">Mis proyectos</h2>
+
+        <ul class="proyectos">
+
+            <li class="proyecto">
+                <h3>Proyecto 1</h3>
+
+                <p>
+                    Página web desarrollada utilizando HTML y CSS
+                    como proyecto académico.
+                </p>
+
+                <button onclick="mostrarMensaje('Proyecto 1')">
+                    Ver proyecto
+                </button>
+            </li>
+
+
+            <li class="proyecto">
+                <h3>Proyecto 2</h3>
+
+                <p>
+                    Sistema básico desarrollado con JavaScript
+                    para practicar programación.
+                </p>
+
+                <button onclick="mostrarMensaje('Proyecto 2')">
+                    Ver proyecto
+                </button>
+            </li>
+
+
+            <li class="proyecto">
+                <h3>Proyecto 3</h3>
+
+                <p>
+                    Base de datos creada utilizando SQL para
+                    almacenar y consultar información.
+                </p>
+
+                <button onclick="mostrarMensaje('Proyecto 3')">
+                    Ver proyecto
+                </button>
+            </li>
+
+        </ul>
+
+    </section>
+
+
+    <!-- Contacto -->
+    <section id="contacto" class="seccion contacto">
+
+        <h2 class="titulo">Contacto</h2>
+
+        <p>
+            Si quieres contactarme, puedes hacerlo mediante mi correo.
+        </p>
+
+        <a href="mailto:alonsogodoy@gmail.com" class="boton">
+            Enviar correo
+        </a>
+
+        <a href="https://github.com/cholito" class="boton" target="_blank" rel="noopener noreferrer">
+            Ver mi GitHub
+        </a>
+
+    </section>
+    </main>
+
+
+         Pie de página 
+    <footer>
+
+        <p>© 2026 Alonso Godoy - universidad catolica de temuco</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
